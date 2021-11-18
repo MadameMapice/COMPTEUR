@@ -1,0 +1,21 @@
+body { 
+    background: linear-gradient(rgb(53, 52, 52), 30%, rgb(248, 79, 130)) no-repeat; 
+    height: 900px; display: flex; flex-direction: column; justify-content: space-around; align-items: center; flex-wrap: wrap;
+  }
+
+
+h1 {
+     color: white; text-shadow: 0px 0px 10px rgb(248, 79, 130); 
+}
+
+
+i {
+    color: white; text-shadow: 0px 0px 10px rgb(248, 79, 130); font-size: 50px;
+}
+
+.container {display: flex; justify-content: space-around; align-items: center; color: white; text-shadow: 0px 0px 10px rgb(3, 3, 3); width: 90%;flex-wrap: wrap; font-size: 20px;}
+/* .container>*{ Pour tous les div dans le container comme: container>div */
+
+.compteur {display: flex; justify-content: space-around; align-items: center; color: rgb(0, 0, 0); text-shadow: 0px 0px 10px rgb(248, 79, 130); width: 90%; font-size: 30px;}
+
+.compteur>* {background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0px 0px 10px rgb(0, 0, 0)}
